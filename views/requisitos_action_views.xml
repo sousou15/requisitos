@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_requirements_action_form" model="ir.ui.view">
+            <field name="name">view.requirements_action.form</field>
+            <field name="model">requirements.action</field>
+            <field name="arch" type="xml">
+                <form string="modelos">
+                    <sheet>
+                        <group name="main">
+                            <field name="name" />
+                            <field name="date"/>
+                            <field name="dedicated_time"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_requirements_action_tree" model="ir.ui.view">
+            <field name="name">view.requirements_action.tree</field>
+            <field name="model">requirements.action</field>
+            <field name="arch" type="xml">
+                <tree string="requirements">
+                    <field name="name" />
+                    <field name="date" />
+                    <field name="requirements_id" />
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_requirements_action_search" model="ir.ui.view">
+            <field name="name">view.requirements_action.search</field>
+            <field name="model">requirements.action</field>
+            <field name="arch" type="xml">
+                <search string="action">
+                    <field name="name" />
+                    <group string="Group By" name="groupby">
+                        <filter name="name_groupby" string="name" context="{'group_by': 'name'}" />
+                    </group>
+                </search>
+            </field>
+        </record>
+
+        <record id="requirements_action_action" model="ir.actions.act_window">
+            <field name="name">Action</field>
+            <field name="res_model">requirements.action</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create"> Click to create a new Requirement.</p>
+            </field>
+        </record>
+
+        <menuitem id="requirements_action_menu" parent="requirements_main_menu" action="requirements_action_action" sequence="20" />
+    </data>
+</odoo>

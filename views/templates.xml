@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="assets_backend_requisitos" name="requisitos assets" inherit_id="web.assets_backend">
+    <xpath expr="." position="inside">
+        <link rel="stylesheet" href="/requisitos/static/src/css/styles.css"/>
+        <script type="text/javascript" src="/requisitos/static/src/js/script.js"/>
+    </xpath>
+</template>
+
+</odoo>

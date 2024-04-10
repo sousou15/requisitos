@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_requirements_res_groups_requirements_user,requirements,model_requirements,requisitos.res_groups_requirements_user,1,1,1,1
+access_requirements_res_groups_requirements_user_action,requirements.action,model_requirements_action,requisitos.res_groups_requirements_user,1,1,1,1
+

@@ -1,0 +1,31 @@
+.my_class {
+    background-color: rgb(137, 235, 27);
+    color: white;
+    font-weight: bold;
+    /* Otros estilos */
+}
+.state_class{
+    width:4%;
+    margin-right:45%;
+    text-align: center;
+    background-color:red;
+    color:white;
+    border-radius: 5%;
+}
+
+tr.done_row {
+    background-color: #93969e !important;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+td.new-state {
+    background-color: rgb(255, 60, 0) !important;
+}
+
+td.progress-state {
+    background-color: orange !important;
+}
+
+td.done-state {
+    background-color: #93969e !important;
+}

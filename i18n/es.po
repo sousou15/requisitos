@@ -1,0 +1,305 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* requisitos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-04-10 12:31+0000\n"
+"PO-Revision-Date: 2024-04-10 14:48+0200\n"
+"Last-Translator: <>\n"
+"Language-Team: Trey <info@trey.es>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. module: requisitos
+#: model:res.groups,comment:requisitos.res_groups_requirements_user
+msgid ""
+"\n"
+"        The user will be able to browse some model.\n"
+"    "
+msgstr ""
+"\n"
+"        El usuario podrá navegar en un modelo.\n"
+"    "
+
+#. module: requisitos
+#: model:res.groups,comment:requisitos.res_groups_requirements_manager
+msgid ""
+"\n"
+"        The user will be able to manage some model.\n"
+"    "
+msgstr ""
+"\n"
+"        El usuario podrá gestionar un modelo.\n"
+"    "
+
+#. module: requisitos
+#: model:ir.actions.act_window,name:requisitos.requirements_action_action
+#: model:ir.ui.menu,name:requisitos.requirements_action_menu
+msgid "Action"
+msgstr "Acción"
+
+#. module: requisitos
+#: model:ir.model.fields,field_description:requisitos.field_requirements__action_ids
+#: model_terms:ir.ui.view,arch_db:requisitos.requirements_form
+msgid "Actions"
+msgstr "Acciones"
+
+#. module: requisitos
+#: model:ir.model.fields,field_description:requisitos.field_requirements__assigned
+#: selection:requirements,state:0
+msgid "Assigned"
+msgstr "Asignado a"
+
+#. module: requisitos
+#: model:ir.model.fields,field_description:requisitos.field_requirements__user_id
+msgid "Assigned to"
+msgstr "Asignada a"
+
+#. module: requisitos
+#: model_terms:ir.actions.act_window,help:requisitos.requirements_action
+msgid "Click here to create new requirements."
+msgstr "Click aquí para crear nuevos requisitos."
+
+#. module: requisitos
+#: model_terms:ir.actions.act_window,help:requisitos.requirements_action_action
+msgid "Click to create a new Requirement."
+msgstr "Click para crear un nuevo requisitos."
+
+#. module: requisitos
+#: model:ir.model.fields,field_description:requisitos.field_requirements__create_uid
+#: model:ir.model.fields,field_description:requisitos.field_requirements_action__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: requisitos
+#: model:ir.model.fields,field_description:requisitos.field_requirements__create_date
+#: model:ir.model.fields,field_description:requisitos.field_requirements_action__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: requisitos
+#: model:ir.model.fields,field_description:requisitos.field_requirements__date
+#: model:ir.model.fields,field_description:requisitos.field_requirements_action__date
+msgid "Date"
+msgstr "Fecha"
+
+#. module: requisitos
+#: model:ir.model.fields,field_description:requisitos.field_requirements__date_due
+msgid "Date Due"
+msgstr "Fecha de vencimiento"
+
+#. module: requisitos
+#: model_terms:ir.ui.view,arch_db:requisitos.view_requirements_kanban
+msgid "Dedicated Time:"
+msgstr "Tiempo dedicado:"
+
+#. module: requisitos
+#: model_terms:ir.ui.view,arch_db:requisitos.view_requirements_kanban
+msgid "Delete"
+msgstr "Borrar"
+
+#. module: requisitos
+#: model:ir.model.fields,field_description:requisitos.field_requirements__description
+#: model_terms:ir.ui.view,arch_db:requisitos.requirements_form
+msgid "Description"
+msgstr "Descripción"
+
+#. module: requisitos
+#: model:ir.model.fields,field_description:requisitos.field_requirements__display_name
+#: model:ir.model.fields,field_description:requisitos.field_requirements_action__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: requisitos
+#: model_terms:ir.ui.view,arch_db:requisitos.requirements_form
+#: selection:requirements,state:0
+msgid "Done"
+msgstr "Hecho"
+
+#. module: requisitos
+#: model_terms:ir.ui.view,arch_db:requisitos.view_requirements_kanban
+msgid "Dropdown menu"
+msgstr "Menú desplegable"
+
+#. module: requisitos
+#: model_terms:ir.ui.view,arch_db:requisitos.view_requirements_kanban
+msgid "Edit"
+msgstr "Editar"
+
+#. module: requisitos
+#: model_terms:ir.ui.view,arch_db:requisitos.view_requirements_action_search
+msgid "Group By"
+msgstr "Agrupar por"
+
+#. module: requisitos
+#: model_terms:ir.ui.view,arch_db:requisitos.view_requirements_search
+msgid "Has time"
+msgstr "Tiene tiempo"
+
+#. module: requisitos
+#: model:ir.model.fields,field_description:requisitos.field_requirements__id
+#: model:ir.model.fields,field_description:requisitos.field_requirements_action__id
+msgid "ID"
+msgstr "ID"
+
+#. module: requisitos
+#: model:ir.model.fields,field_description:requisitos.field_requirements__is_done
+msgid "Is Done"
+msgstr "Está hecho"
+
+#. module: requisitos
+#: model:ir.model.fields,field_description:requisitos.field_requirements____last_update
+#: model:ir.model.fields,field_description:requisitos.field_requirements_action____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: requisitos
+#: model:ir.model.fields,field_description:requisitos.field_requirements__write_uid
+#: model:ir.model.fields,field_description:requisitos.field_requirements_action__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: requisitos
+#: model:ir.model.fields,field_description:requisitos.field_requirements__write_date
+#: model:ir.model.fields,field_description:requisitos.field_requirements_action__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: requisitos
+#: model_terms:ir.ui.view,arch_db:requisitos.requirements_form
+msgid "Main"
+msgstr "Principal"
+
+#. module: requisitos
+#: model:res.groups,name:requisitos.res_groups_requirements_manager
+msgid "Manager"
+msgstr "Administrador"
+
+#. module: requisitos
+#: model:ir.model.fields,field_description:requisitos.field_requirements__name
+#: model:ir.model.fields,field_description:requisitos.field_requirements_action__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: requisitos
+#: model_terms:ir.ui.view,arch_db:requisitos.view_requirements_search
+#: selection:requirements,state:0
+msgid "New"
+msgstr "Nuevo"
+
+#. module: requisitos
+#: model_terms:ir.ui.view,arch_db:requisitos.requirements_form
+msgid "New Requirement"
+msgstr "Nuevo Requisito"
+
+#. module: requisitos
+#: model:ir.model.fields,field_description:requisitos.field_requirements__new_requirement_name
+msgid "New tag"
+msgstr "Nueva etiqueta"
+
+#. module: requisitos
+#: model_terms:ir.ui.view,arch_db:requisitos.view_requirements_search
+msgid "Not done"
+msgstr "No hecho"
+
+#. module: requisitos
+#: model_terms:ir.ui.view,arch_db:requisitos.requirements_form
+#: selection:requirements,state:0
+msgid "On progress"
+msgstr "En progreso"
+
+#. module: requisitos
+#: model_terms:ir.ui.view,arch_db:requisitos.requirements_form
+msgid "Quality"
+msgstr "Calidad"
+
+#. module: requisitos
+#: model:ir.model.fields,field_description:requisitos.field_requirements__related_actions
+msgid "Related Actions"
+msgstr "Acciones relacionadas"
+
+#. module: requisitos
+#: model_terms:ir.ui.view,arch_db:requisitos.requirements_form
+msgid "Requirement#"
+msgstr "Requisito#"
+
+#. module: requisitos
+#: model:ir.model,name:requisitos.model_requirements
+#: model:ir.model.fields,field_description:requisitos.field_requirements__requirements_id
+#: model:ir.model.fields,field_description:requisitos.field_requirements_action__requirements_id
+#: model:ir.ui.menu,name:requisitos.requirements_root_menu
+#: model_terms:ir.ui.view,arch_db:requisitos.requirements_tree
+#: model_terms:ir.ui.view,arch_db:requisitos.view_requirements_calendar
+msgid "Requirements"
+msgstr "Requisitos"
+
+#. module: requisitos
+#: model:ir.model,name:requisitos.model_requirements_action
+msgid "Requirements Action"
+msgstr "Acción de requisitos"
+
+#. module: requisitos
+#: model:ir.ui.menu,name:requisitos.requirements_main_menu
+msgid "Requirements Menu"
+msgstr "Menú Requisitos"
+
+#. module: requisitos
+#: model:ir.model.fields,field_description:requisitos.field_requirements__state
+msgid "State"
+msgstr "Estado"
+
+#. module: requisitos
+#: model:ir.model.fields,field_description:requisitos.field_requirements__dedicated_time
+#: model:ir.model.fields,field_description:requisitos.field_requirements_action__dedicated_time
+msgid "Time"
+msgstr "Tiempo"
+
+#. module: requisitos
+#: model:res.groups,name:requisitos.res_groups_requirements_user
+msgid "User"
+msgstr "Usuario"
+
+#. module: requisitos
+#: model_terms:ir.ui.view,arch_db:requisitos.view_requirements_action_search
+msgid "action"
+msgstr "acción"
+
+#. module: requisitos
+#: model_terms:ir.ui.view,arch_db:requisitos.requirements_form
+msgid "label"
+msgstr "etiqueta"
+
+#. module: requisitos
+#: model_terms:ir.ui.view,arch_db:requisitos.view_requirements_action_form
+msgid "modelos"
+msgstr "modelos"
+
+#. module: requisitos
+#: model_terms:ir.ui.view,arch_db:requisitos.view_requirements_action_search
+msgid "name"
+msgstr "nombre"
+
+#. module: requisitos
+#: model:ir.model,name:requisitos.model_requeriments
+msgid "requeriments"
+msgstr "requisitos"
+
+#. module: requisitos
+#: model:ir.model,name:requisitos.model_requeriments_action
+msgid "requeriments Action"
+msgstr "acción requisitos"
+
+#. module: requisitos
+#: model:ir.actions.act_window,name:requisitos.requirements_action
+#: model:ir.module.category,name:requisitos.ir_module_category_requirements
+#: model:ir.ui.menu,name:requisitos.requirements_menu
+#: model_terms:ir.ui.view,arch_db:requisitos.view_requirements_action_tree
+msgid "requirements"
+msgstr "requisitos"
