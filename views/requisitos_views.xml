@@ -11,6 +11,7 @@
             <field name="name"/>
             <field name="date"/>
             <field name="date_due"/>
+            <field name="user_id"/>
             <field name="dedicated_time"/>
             <field name="state" class="my_class"/>
             <field name="is_done" invisible="1"/>

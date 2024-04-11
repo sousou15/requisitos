@@ -18,6 +18,8 @@ tr.done_row {
     color: rgb(0, 0, 0);
     font-weight: bold;
 }
+
+
 td.new-state {
     background-color: rgb(255, 60, 0) !important;
 }
@@ -29,3 +31,19 @@ td.progress-state {
 td.done-state {
     background-color: #93969e !important;
 }
+
+.o_kanban_done {
+    background-color: rgb(223, 34, 50); /* Cambia el color de fondo */
+}
+/* tr.new-row{
+    background-color: rgb(255, 60, 0) !important;
+}
+
+tr.progress-row {
+    background-color: orange !important;
+}
+
+tr.done-row {
+    background-color: #93969e !important;
+}
+ */

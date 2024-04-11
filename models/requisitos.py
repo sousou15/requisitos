@@ -53,7 +53,6 @@ class Requirements(models.Model):
 
     def set_done(self):
         self.ensure_one()
-        # Set the state to 'done'
         self.state = 'done'
 
     assigned = fields.Boolean(
@@ -116,22 +115,17 @@ class Requirements(models.Model):
         string='Assigned to',
         default=False)
 
-    def create_new_requirement(self):
-        self.ensure_one()
-        new_requirement = self.env['requirements.action'].create({
-            'name': self.new_requirement_name,
-            'date': fields.Date.today(),
-            # Otros campos que deseas definir para la nueva acción relacionada
-        })
-        self.write({
-            'related_actions': [(4, new_requirement.id, 0)]
-        })
+    # def create_new_requirement(self):
+    #     new_requirement = self.env['requirements'].create({
+    #         'name': self.new_requirement_name,
+    #         'date': fields.Date.today(),
+    #     })
+    #     # return new_requirement
+    #     # self.write({
+    #     #     'related_actions': [(4, new_requirement.id, 0)]
+    #     # })
+    # # def create_new_requirement_action(self):
 
-    # @api.depends('user_id')
-    # def _compute_assigned(self):
-    #     for record in self:
-    #         record.assigned = record.user_id and True
-    #         record.state = 'assigned'
     @api.depends('user_id')
     def _compute_assigned(self):
         for record in self:
@@ -140,7 +134,8 @@ class Requirements(models.Model):
                 record.state = 'assigned'
             else:
                 record.assigned = False
-                record.state = 'new'  # O el estado predeterminado que desees si no está asignado
+                record.state = 'new'
+
     is_done = fields.Boolean(
         string="Is Done",
         compute='_compute_is_done',

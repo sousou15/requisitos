@@ -20,15 +20,5 @@ odoo.define('requisitos.dynamic_row_color', function (require) {
             return $td;
         },
     });
-    // ListRenderer.include({
-    //     _renderBodyCell: function (record, node) {
-    //         var $td = this._super.apply(this, arguments);
-    //         if (node.attrs.name === 'state') {
-    //             var state = record.data['state'];
-    //             $td.addClass(state.toLowerCase() + '-state');
-    //         }
-    //         return $td;
-    //     },
-    // });
 
 });
